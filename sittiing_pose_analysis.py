@@ -22,4 +22,18 @@ def get_camera_dict():
 
     cam_dict['Camera 1 (default)'] = cam_dict.pop('Camera 1')
 
+
+def find_angle(p1, p2, ref_pt = np.array([0,0])):
+    p1_ref = p1 - ref_pt
+    p2_ref = p2 - ref_pt
+
+    cos_theta = (np.dot(p1_ref, p2_ref)) / (1.0 * np.linalg.norm(p2_ref))
+    theta = np.arccos(np.clip(cos_theta, -1.0, 1.0))
+
+    degree = int(180 / np.pi) * theta
+
+    if p1[0] < ref_pt[0]:
+        degree = -degree
     
+    return degree
+
