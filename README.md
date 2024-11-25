@@ -9,4 +9,4 @@ MediaPipe Pose is a machine learning solution for high-fidelity body pose tracki
 
 ## Project Demonstration
 
-
+**Coming soon**
