@@ -7,6 +7,13 @@ MediaPipe Pose is a machine learning solution for high-fidelity body pose tracki
 **Scenary of The Points from Mediapipe Pose:**
 ![77738pose_tracking_full_body_landmarks](https://github.com/user-attachments/assets/26d2cb7b-eecb-4cd2-ab91-fe1da617a692)
 
+
+Below is the workflow of our Body Posture Detection System
+
+
+![workflow](https://github.com/user-attachments/assets/9692d790-31e1-471d-b5ad-5212e3fbf03a)
+
+
 ## Project Demonstration
 at first, imported the required libraries which are:
 ```python
